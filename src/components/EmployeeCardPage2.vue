@@ -31,7 +31,7 @@ onMounted(fetchUsers)
         </div>
         <div class="flex flex-wrap items-center justify-center gap-14 mt-10">
             <div v-for="user in users" :key="user.id" 
-             class="flex flex-row mt-10 items-center justify-center bg-gray-500 shadow-md rounded-lg p-4 hover:bg-gray-400 hover:shadow-lg 
+             class="flex flex-row mt-10 items-center justify-center bg-gray-500 shadow-md rounded-lg p-4 hover:bg-gray-400 hover:shadow-lg w-48
              transition duration-300 transform hover:-translate-y-1 hover:scale-105 animate-fade-in-up">
                 <div class="flex flex-col items-center justify-center gap-6 mt-4 text-sm">
                     <span>
